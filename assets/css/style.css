@@ -147,6 +147,10 @@ p {
   form {
 padding: 25px;
   }
+  textarea{
+    height:150px;
+  }
+  
 
   input[type=submit]:hover {
     background-color: #358884;
