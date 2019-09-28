@@ -96,14 +96,14 @@
   margin-right: 0.25em; 
 }
 
-img {
+.imgProf {
   margin-right:15px;
   float: left;
   width: 310px;
   height: 200px;
 }
 
-p {
+.pAbout {
   margin: 20px;
   font-size: 1em;
   line-height: 1.75;
@@ -154,4 +154,46 @@ padding: 25px;
 
   input[type=submit]:hover {
     background-color: #358884;
+  }
+
+  .column {
+    margin-right: 15px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+
+  .row::after {
+    content: " ";
+    clear: both;
+    display: table;
+    width: 100%;
+  
+    
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 15px;
+    background-color: #358884;
+    color: white;
+    left: 0px;
+    right: 0px;
+
+    
+    
+  }
+
+  .imgPortfolio{
+
+  width: 200px;
+  height: 150px;
+  }
+
+  .pp{
+  font-size: 1em;
+  line-height: 1.75;
+  text-align: center;
   }
